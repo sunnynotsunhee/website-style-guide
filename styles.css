@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(255, 240, 251);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h2{
+    color: rgb(206, 91, 106);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: antiquewhite;
+}
+
+.column {
+    /* border: 1px solid black;  */
+    width:1200px;
+    margin: 0px auto;    
+}
+li {
+    display: inline;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #e2d1ed;
+    border-radius: 30%;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    color: rgb(245, 142, 142);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.almost-purple {
+    color: white;
+    background-color: #e2d1ed;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    border-style: double;
+}
+
+.pale-green {
+    color: white;
+    background-color: #d8e2dc;
+    text-align: center;
+    line-height: 45px;  
+    border-radius: 50%;
+    border-style: double;
+}
+.could-be-peach{
+    color: white;
+    background-color: #ffe4d9;
+    text-align: center;
+    line-height: 45px;  
+    border-radius: 50%;
+    border-style: double;
+}
+.decently-pink{
+    color: white;
+    background-color: #ffcad4;
+    text-align: center;
+    line-height: 45px;  
+    border-radius: 50%;
+    border-style: double;
+}
+.v-pink{
+    color: white;
+    background-color:#f4acb7;
+    text-align: center;
+    line-height: 45px;  
+    border-radius: 50%;
+    border-style: double;
+}
+.gray-blue{
+    color: white;
+    background-color:#c0c9eb;
+    text-align: center;
+    line-height: 45px;  
+    border-radius: 50%;
+    border-style: double;
+}
+
+/* .colors {
+     border: 1px solid purple; 
+} */
+
+.colors-flex {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.colors-flex div {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.fonts-flex {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(245, 142, 142);
+}
+
+
+.tit {
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.tit .bold {
+    font-weight: bold;
+}
+.tit .italic {
+    font-weight: italic;
+}
+
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.ibm {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
